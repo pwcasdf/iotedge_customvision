@@ -1,5 +1,5 @@
-#Azure IoT Edge + Custom Vision
-##Requirements
+# Azure IoT Edge + Custom Vision
+## Requirements
 - Azure Conatiner Registry (User Name & Password)
 
 - Azure IoT Hub (IoT Edge Device needed)
@@ -10,7 +10,7 @@
 
 - Linux Device (with Web cam)
 
-##Procedure
+## Procedure
 1. Refer [this](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli#prerequisites) web page and upload your model image to Azure Container Registry.
 	- Unzip Exported Custom Vision model and build image from that folder (Dockerfile is included in the folder)
 
@@ -23,6 +23,6 @@
 
 5. Enjoy Azure IoT Edge :)
 
-##FYI
+## FYI
 - Model module gets octet stream format images through port 80. (custom vision Dockerfile exported model's default)
 - As using camera module, the camera frame can be observed through 0.0.0.0:5000
