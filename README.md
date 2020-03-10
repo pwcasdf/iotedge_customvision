@@ -19,7 +19,7 @@
 
 3. Follow [this](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux) quick start to ready your Linux device.
 
-4. Open this repo with Visual studio and deploy the modules on the device with [this](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-develop-for-linux#build-and-push-your-solution) guide.
+4. Deploy the modules on the device with [this](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-develop-for-linux#build-and-push-your-solution) guide.
 
 5. Enjoy Azure IoT Edge :)
 
