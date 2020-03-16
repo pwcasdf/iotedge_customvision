@@ -11,9 +11,9 @@
             "loggingOptions": "",
             "registryCredentials": {
               "jackiotedgedemoacr": {
-                "username": "$CONTAINER_REGISTRY_USERNAME_jackiotedgedemoacr",
-                "password": "$CONTAINER_REGISTRY_PASSWORD_jackiotedgedemoacr",
-                "address": "jackiotedgedemoacr.azurecr.io"
+                "username": "$CONTAINER_REGISTRY_USERNAME",
+                "password": "$CONTAINER_REGISTRY_PASSWORD",
+                "address": "$CONTAINER_REGISTRY_SERVER"
               }
             }
           }
