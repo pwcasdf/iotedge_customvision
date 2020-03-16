@@ -17,7 +17,7 @@
 2. Open **.env** file, enter **CONTAINER REGISTRY SERVER NAME** (Ex. sthsth.azureacr.io), **USER NAME and PASSWORD** of Azure Container Registry and uploaded model image **PATH** which you have done above.
 	- **PATH** is **YOUR\_AZURE\_CONTAINER\_REGISTRY\_LOGIN_SERVER/IMAGE\_NAME:TAG**
 
-3. Follow [this](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart-linux) quick start to ready your Linux device.
+3. Follow [this](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux#option-1-manual-provisioning) quick start to ready your Linux device.
 
 4. Deploy the modules on the device with [this](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-develop-for-linux#build-and-push-your-solution) guide.
 
